@@ -39,4 +39,10 @@ instructionMemory intrction_Memory(address_wire,instrcD1);
 
 latch1 IR_latch(.pcIn(pcplus4F),.rdIn(instrcD1),.rdOut(instrD),.En(!stallD_wire),.clk(clk_top),'clear waiting for control unit'); //!!!
 
+////////---- fetching^^
+//executing now
+
+wire[4:0] A1_wire,A2_wire,A3_wire;
+wire[31:0] wd3_wire;
+
 
