@@ -4,7 +4,7 @@ input [31:0] rd1i,rd2i,rsd,rtd,rdd,signimmin;
 output [31:0] rd1o,r2do,rse,rte,rde,signimmout;
 
 always @(posedge clk ) begin
-	if (rst) begin
+	if (clr) begin
 		// reset
 		rd1o<=0;
 		r2do<=0;
