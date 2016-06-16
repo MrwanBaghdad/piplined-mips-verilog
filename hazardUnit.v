@@ -20,5 +20,5 @@ else if (RsE!=0 && RsE== WriteRegW && RegWriteW) begin
 		else begin
 		forwardAE=2'b00;
 	end
-
+	
 end module
