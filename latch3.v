@@ -1,4 +1,4 @@
-module latch3(clk,clr,regwriteE,memtoregE,memWriteE,aluControlE, aluOutE,writeDataE,writeRegE,
+module latch3(clk,regwriteE,memtoregE,memWriteE,aluControlE, aluOutE,writeDataE,writeRegE,
 	regwriteM,memtoRegM,memWriteM,aluOutM,writeDataM,writeRegM);
 input clk,clr, regwriteE , memtoregE,memWriteE;
 

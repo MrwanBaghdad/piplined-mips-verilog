@@ -1,5 +1,4 @@
 module controlunit (
-	clk,
 	op,
 	func,
 	pcWrite,
@@ -9,10 +8,14 @@ module controlunit (
 	aluSrcA,
 	aluSrcB,
 	regWrite,
-	jump,
 	iorD,
 	memWrite,
-	irWrite
+	irWrite,
+	bne,
+	sb,
+	lb,
+	jal,
+	jr
 	);
 
 input [31:26] op;

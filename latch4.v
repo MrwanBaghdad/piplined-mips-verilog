@@ -1,4 +1,4 @@
-module latch4 (clk ,clr,regWriteM,MemtoRegM,readDataM,AluOutM,WriteRegM,
+module latch4 (clk ,regWriteM,MemtoRegM,readDataM,AluOutM,WriteRegM,
 	regWriteW,MemtoRegW,readDataW.AluOutW,WriteRegW);
 
 input clk,clr,regWriteM,MemtoRegM;

@@ -10,8 +10,8 @@
 'include  mux4.v'
 'include registerFile.v'
 'include instructionMemory.v'
-'inlcude clock.v'
-'inlcude clock2.v'
+'include clock.v'
+'include clock2.v'
 
 module top();
 
@@ -44,5 +44,3 @@ latch1 IR_latch(.pcIn(pcplus4F),.rdIn(instrcD1),.rdOut(instrD),.En(!stallD_wire)
 
 wire[4:0] A1_wire,A2_wire,A3_wire;
 wire[31:0] wd3_wire;
-
-
